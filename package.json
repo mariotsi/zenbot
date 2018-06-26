@@ -42,9 +42,15 @@
     "sosa_mongo": "^1.0.3",
     "talib": "^1.0.3",
     "timebucket": "^0.4.0",
-    "zero-fill": "^2.2.3"
+    "zero-fill": "^2.2.3",
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "eslint": "^4.0.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
