@@ -16,7 +16,7 @@
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "forex.analytics": "git+https://github.com/mkmarek/forex.analytics.git#7bc278987700d4204e959af17de61495941d1a14",
-    "gdax": "^0.5.1",
+    "gdax": "^0.6.0",
     "gemini-api": "^2.0.4",
     "glob": "^7.1.1",
     "har-validator": "^5.0.3",
@@ -42,9 +42,15 @@
     "sosa_mongo": "^1.0.3",
     "talib": "^1.0.3",
     "timebucket": "^0.4.0",
-    "zero-fill": "^2.2.3"
+    "zero-fill": "^2.2.3",
+    "snyk": "^1.143.5"
   },
   "devDependencies": {
     "eslint": "^4.0.0"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
