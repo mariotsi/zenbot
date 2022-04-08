@@ -7,7 +7,7 @@
     "zenbot": "./zenbot.sh"
   },
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^3.2.2",
     "bitfinex-api-node": "^1.0.1",
     "bitstamp": "^1.0.1",
     "bl": "^1.2.3",
